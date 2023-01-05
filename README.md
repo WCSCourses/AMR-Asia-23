@@ -34,3 +34,27 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 - [Lecture 11](): AMR and One Health
 
 ## Computational Practicals 
+
+- [Session 1](): Intro to linux / command line
+- [Session 2](): Accessing data and data QC
+- [Session 3](): Assembly (short read)
+- [Session 4](): Alignment and variant calling
+- [Session 5](): Long read assembly
+- [Session 6](): Detecting resistance using command line
+- [Session 7](): Online tools
+- [Session 8](): Phylogenetics
+- [Session 9](): Analysing phylogenetics - AMR national
+- [Session 10](): International Genomic Surveillance of AMR 
+- [Session 11](): National Genomic Surveillance of AMR 
+- [Session 12](): Local Genomic Surveillance of AMR
+- [Session 13](): Genomics Surveillance of AMR Analysis of resistance in genomes
+- [Session 14](): Analysis of resistance in genomes
+
+## Laboratory Practicals 
+
+- [Practical 1](): Set up disc testing
+- [Practical 2](): Set up e-tests and broth microdilution tests
+- [Practical 3](): Read e-tests and broth microdilution
+- [Practical 4](): Reading disc plates - comparision exercise
+- [Practical 5](): Nanopore sequencing demo
+

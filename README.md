@@ -18,3 +18,19 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 - [Narender Kumar](https://www.infectiousdisease.cam.ac.uk/directory/narender-kumar), Wellcome Sanger Institute, UK
 - [Paul Turner](https://www.tropmedres.ac/team/paul-turner), Cambodia-Oxford Medical Research Unit, Cambodia
 - [Premjit Amornchai](https://www.tropicalmedicine.ox.ac.uk/team/premjit-amornchai?7576d5bd-195d-11ed-a8f6-062102a078a4), Mahidol-Oxford Tropical Medicine Unit, Thailand
+
+## Lectures
+
+- Lecture 1: Introduction to AMR - historical and epidemiological aspects
+- Lecture 2: Epidemiology of AMR and national surveillance programs in Southeast Asia
+- Lecture 3: Clinical importance of AMR, outbreak and diagnostic stewardship
+- Lecture 4: Study design and surveillance methods
+- Lecture 5: Molecular methods for AMR
+- Lecture 6: Antimicrobial policies and stewardship, and infection prevention and control
+- Lecture 7: Causes and biological mechanisms
+- Lecture 8: Acquisition and evolution of resistance 
+- Lecture 9: Introduction to Genomic Surveillance of AMR
+- Lecture 10: Local AMR epidemiology - investigation transmission of clones and AMR using genomics
+- Lecture 11: AMR and One Health
+
+## Computational Practicals 

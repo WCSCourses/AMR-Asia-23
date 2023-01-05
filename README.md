@@ -1,3 +1,6 @@
+
+<img src="https://coursesandconferences.wellcomeconnectingscience.org/wp-content/themes/wcc_courses_and_conferences/dist/assets/svg/logo.svg" width="200" height="200">
+
 # Antimicrobial Resistance in Bacterial Pathogens - Asia: 19 to 24 February 2023
 Learn antimicrobial susceptibility testing techniques and how whole-genome sequencing and bioinformatics can be used to understand AMR
 

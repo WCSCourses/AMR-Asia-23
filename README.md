@@ -8,6 +8,10 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 
 [Course website](https://coursesandconferences.wellcomeconnectingscience.org/event/antimicrobial-resistance-in-bacterial-pathogens-asia-20230219/)
 
+## Premliminary Timetable
+
+[Download here]()
+
 ## Instructors
 
 - [Beth Blane](https://www.med.cam.ac.uk/staff/beth-blane/), University of Cambridge, UK

@@ -10,7 +10,7 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 
 ## Premliminary Timetable
 
-[Download here]()
+[Download here](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Preliminary%20Timetable.png)
 
 ## Instructors
 

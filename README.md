@@ -17,7 +17,7 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 - [Beth Blane](https://www.med.cam.ac.uk/staff/beth-blane/), University of Cambridge, UK
 - [Claire Chewapreecha](https://www.tropmedres.ac/team/claire-chewapreecha), Mahidol-Oxford Tropical Medicine Unit, Thailand
 - [Direk Limmathurotsakul](https://www.tropmedres.ac/team/direk-limmathurotsakul), Mahidol-Oxford Tropical Medicine Unit, Thailand
-- [Ewan Harrison](https://www.infectiousdisease.cam.ac.uk/directory/eh439@cam.ac.uk), Wellcome Sanger Institute, UK
+- [Ewan Harrison](https://www.sanger.ac.uk/person/harrison-ewan/), Wellcome Sanger Institute, UK
 - [Fahad Khokhar](https://www.researchgate.net/profile/Fahad-Khokhar), University of Cambridge, UK
 - [Francesc Coll](https://www.lshtm.ac.uk/aboutus/people/coll.francesc), London School of Hygiene & Tropical Medicine, UK
 - [Janjira Thaipadungpanit](https://www.tm.mahidol.ac.th/tropmed-staff/Janjira-Thaipadungpanit.php), Mahidol-Oxford Tropical Medicine Unit, Thailand

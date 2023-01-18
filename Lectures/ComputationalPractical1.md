@@ -4,21 +4,21 @@ Material adapted from the [Unix Bootcamp Tutorial](https://github.com/griffithla
 ### Learning objectives
 Learn how to use the Unix command-line.
 
-[Files and Directories: ls, pwd](#files-and-directories)
-[Making and changing directories: mkdir, cd](#making-and-changing-directories)
-[Documentation: man](#documentation)
-[Removing Directories: rmdir](#removing-directories)
-[Tab completion](#tab-completion)
-[Working with files: touch, mv](#working-with-files)
-[Removing files: rm](#removing-files)
-[Copying files: cp](#copying-files)
-[Looking at files: echo, less, wc](#looking-at-files)
-[Editing files: nano](#editing-files)
-[Searching files: grep](#searching-files)
-[Working with columns: cut, paste](#working-with-columns)
-[Combining commands with pipes: |](#combining-commands-with-pipes)
-[Some more useful Unix commands: tail, head, tr](#some-more-useful-unix-commands)
-[Environment variables](#environment-variables)
+- [Files and Directories: ls, pwd](#files-and-directories)
+- [Making and changing directories: mkdir, cd](#making-and-changing-directories)
+- [Documentation: man](#documentation)
+- [Removing Directories: rmdir](#removing-directories)
+- [Tab completion](#tab-completion)
+- [Working with files: touch, mv](#working-with-files)
+- [Removing files: rm](#removing-files)
+- [Copying files: cp](#copying-files)
+- [Looking at files: echo, less, wc](#looking-at-files)
+- [Editing files: nano](#editing-files)
+- [Searching files: grep](#searching-files)
+- [Working with columns: cut, paste](#working-with-columns)
+- [Combining commands with pipes: |](#combining-commands-with-pipes)
+- [Some more useful Unix commands: tail, head, tr](#some-more-useful-unix-commands)
+- [Environment variables](#environment-variables)
 
 Load the virtual machine and start the terminal. You will see a screen which looks a lot like this:
 ```
@@ -56,7 +56,7 @@ manager@AMR23:~$
 ```
  
 You might see some of these names for files and folders appearing in different colours. Many Unix systems will display files and directories in different colours by default, or colours may be used for special types of files. When you log in to a computer you are working with your files in your home directory, and this is often inside a directory called ‘users’ or ‘home’.
-There may be many hundreds of directories on any Unix machine, so how do you know which one you are in? The command pwd will ‘Print the Working Directory’ to show you what directory you are in:
+There may be many hundreds of directories on any Unix machine, so how do you know which one you are in? The command `pwd` will ‘Print the Working Directory’ to show you what directory you are in:
 ```
 manager@AMR23:~$ pwd
 /home/manager
@@ -283,7 +283,7 @@ rm: remove regular empty file 'heaven.txt'? y
 rm: remove regular empty file 'rags'? y
 ```
  
-We could have simplified this step by using a wild-card (e.g. rm -i *.txt) or we could have made things more complex by removing each file with a separate rm command. Let’s finish cleaning up:
+We could have simplified this step by using a wild-card (e.g. `rm -i *.txt`) or we could have made things more complex by removing each file with a separate rm command. Let’s finish cleaning up:
 ```
 manager@AMR23:~/learning_unix/temp$ rmdir temp2/temp3/
 manager@AMR23:~/learning_unix/temp$ rmdir temp2/
@@ -336,8 +336,8 @@ opening_lines.txt
 manager@AMR23:~/learning_unix$ less opening_lines.txt
 ```
  
-On its own, `echo` isn’t a very exciting Unix command. It just echoes text back to the screen. But we can redirect that text into an output file by using the > symbol. This allows for something called file redirection.
-Careful when using file redirection (>), it will overwrite any existing file of the same name
+On its own, `echo` isn’t a very exciting Unix command. It just echoes text back to the screen. But we can redirect that text into an output file by using the > symbol. This allows for something called file redirection. Careful when using file redirection (>), it will overwrite any existing file of the same name.
+
 When you are using less, you can bring up a page of help commands by pressing h, scroll forward a page by pressing space, or go forward or backwards one line at a time by pressing j or k. To exit less, press q (for quit). The less program also does many other useful things (including text searching).
 Let’s add another line to the file:
 ```
@@ -387,7 +387,9 @@ The `ls -l` option shows us a long listing, which includes the size of the file 
  
 You simply type the text you want to include in the file.
 The bottom of the nano window shows you a list of simple commands which are all accessible by typing ‘Control’ plus a letter. E.g. Control + X exits the program, Control + O will ‘write out’ or ‘save’ the file.
+
 Use nano to add the following lines to opening_lines.txt (you can copy and paste them into the window using Ctrl+C and right-click), making sure to use the ‘write out’ command to save (follow the options at the bottom of the screen):
+```
 Now is the winter of our discontent.
 All children, except one, grow up.
 The Galactic Empire was dying.
@@ -399,13 +401,16 @@ I am an invisible man.
 It was the day my grandmother exploded.
 When he was nearly thirteen, my brother Jem got his arm badly broken at the elbow.
 Marley was dead, to begin with.
+```
 
 ### Searching files
 You will often want to search files to find lines that match a certain pattern. The Unix command grep does this (and much more). The following examples show how you can use grep’s command-line options to:
-show lines that match a specified pattern
-ignore case when matching (-i)
-only match whole words (-w)
-show lines that don’t match a pattern (-v)
+
+- show lines that match a specified pattern
+- ignore case when matching (-i)
+- only match whole words (-w)
+- show lines that don’t match a pattern (-v)
+
 Use wildcard characters and other patterns to allow for alternatives (*, ., and [])
 ```
 manager@AMR23:~/learning_unix$ grep was opening_lines.txt
@@ -483,18 +488,22 @@ less grades.txt
 ```
  
 `curl` will download the contents of any URL you provide it and print it to STDOUT. Since we want our test file on the filesystem, we redirect the output of curl to the file "grades.txt" using the > operator you saw previously.
-As you can see, this file containing hypothetical grades for hypothetical characters. First of all, one character stands out - "Spock", as he aces every class. Let’s extract his information:
+As you can see, this file containing hypothetical grades for hypothetical characters. 
+
+First of all, one character stands out - "Spock", as he aces every class. Let’s extract his information:
 ```
 cut -f 5 grades.txt
 ```
  
 This command provides us with all the rows for column "5" (-f 5), which contains the grades for "Spock" and prints it to STDOUT.
+
 What else stands out here? "Luke" has a value of 150 where the maximum is 100. He’s probably "forcing" that grade, and that’s cheating. Speaking of cheaters, Malcom is a known cheater, and his scores of 50 on everything raise suspicions. Let’s remove both these students from our file.
 ```
 cut -f -2,4-7,9 grades.txt > grades_no_cheaters.txt
 ```
  
 Ok, there is a lot to take in here. First, the syntax of what the -f argument takes: the - means "everything up to" when used as the first character, but also means "everything between" when used between two other values (it also can mean "everything after" if used as the last character). So this means "keep all the columns up to 2, then the ones between 4 and 7, and then also column 9".
+
 Note that we are separating values with ",". The > grades_no_cheaters.txt will redirect the output into a new file.
 Ok, so now let’s add back the cheaters as the last columns of our grades file.
 ```
@@ -502,6 +511,7 @@ cut -f 3,8 grades.txt | paste grades_no_cheaters.txt - > sorted_grades.txt
 ```
  
 We just cut out the columns with the names of the cheaters, and then "piped" them to paste which placed the columns in the end of the grades file. The "-" here means "read from STDIN", and we could use another file instead, to merge the contents of both files.
+
 There you have it. Now all you have to do is read sorted_grades.txt and figure out what to do with the cheating students.
 
 ### Combining commands with pipes
@@ -511,7 +521,7 @@ manager@AMR23:~/learning_unix$ grep was opening_lines.txt | wc -c
 316
 ```
  
-The first use of grep searches the specified file for lines matching ‘was’, then it sends the lines that match through a pipe to the wc program. We use the -c option to just count characters in the matching lines (316).
+The first use of `grep` searches the specified file for lines matching ‘was’, then it sends the lines that match through a pipe to the `wc` program. We use the -c option to just count characters in the matching lines (316).
 Here’s an example which introduces some new Unix commands:
 ```
 manager@AMR23:~/learning_unix$ grep was opening_lines.txt | sort | head -n 3 | wc -c
@@ -519,10 +529,12 @@ manager@AMR23:~/learning_unix$ grep was opening_lines.txt | sort | head -n 3 | w
 ```
  
 This example first sends the output of grep to the Unix sort command. This sorts a file alphanumerically by default. The sorted output is sent to the head command which by default shows the first 10 lines of a file. We use the -n option of this command to only show 3 lines. These 3 lines are then sent to the wc command as before.
+
 Whenever making a long pipe, test each step as you build it!
 
-###Some more useful Unix commands
+### Some more useful Unix commands
 The following examples introduce some other Unix commands. Remember, you can always learn more about these Unix commands from their respective man pages with the man command. Try them out:
+
 View the penultimate 10 lines of a file (using head and tail commands):
 ```
 tail -n 20 opening_lines.txt | head
@@ -549,7 +561,7 @@ Turn lower-case text into upper-case (using tr command to ‘transliterate’):
 tr 'a-z' 'A-Z' < opening_lines.txt
 ```
  
-This uses the `<` operator which is the reverse of the `>` operator - instead of sending the command output to a file, it reads the file and sends that to the command.
+This uses the < operator which is the reverse of the > operator - instead of sending the command output to a file, it reads the file and sends that to the command.
 
 ### Environment variables
 One other use of the echo command is for displaying the contents of something known as environment variables. These contain user-specific or system-wide values that either reflect simple pieces of information (your username), or lists of useful locations on the file system. Some examples:

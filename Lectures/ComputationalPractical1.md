@@ -8,11 +8,11 @@ Learn how to use the Unix command-line.
 - [Making and changing directories: mkdir, cd](#making-and-changing-directories)
 - [Documentation: man](#documentation)
 - [Removing Directories: rmdir](#removing-directories)
-- [Tab completion](#tab-completion)
+- [Tab completion: history](#tab-completion)
 - [Working with files: touch, mv](#working-with-files)
 - [Removing files: rm](#removing-files)
 - [Copying files: cp](#copying-files)
-- [Looking at files: echo, less, wc](#looking-at-files)
+- [Looking at files: echo, less, wc, redirection](#looking-at-files)
 - [Editing files: nano](#editing-files)
 - [Searching files: grep](#searching-files)
 - [Working with columns: cut, paste](#working-with-columns)
@@ -195,9 +195,12 @@ Note: you have to be outside a directory before you can remove it with `rmdir`!
 
 ### Tab completion
 Saving keystrokes may not seem important, but the longer that you spend typing in a terminal window, the happier you will be if you can reduce the time you spend at the keyboard. So the best Unix tip to learn early on is that you can tab complete the names of files and programs on most Unix systems. Type enough letters that uniquely identify the name of a file, directory or program and press tab…Unix will do the rest. E.g. if you type ‘tou’ and then press tab, Unix should autocomplete the word to ‘touch’ (this is a command which we will learn more about in a minute). In this case, tab completion will occur because there are no other Unix commands that start with ‘tou’. If pressing tab doesn’t do anything, then you have not have typed enough unique characters. In this case pressing tab twice will show you all possible completions. This trick can save you a LOT of typing!
+
 Navigate to your home directory, and then use the cd command to change to the learning_unix directory. Use tab completion to complete directory name. If there are no other directories starting with ‘l’ in your home directory, then you should only need to type `cd l` and then press your tab key.
+
 Tab completion will make your life easier and make you more productive!
-Another great time-saver is that Unix stores a list of all the commands that you have typed in each login session. You can access this list by using the history command or more simply by using the up and down arrows to access anything from your history. So if you type a long command but make a mistake, press the up arrow and then you can use the left and right arrows to move the cursor in order to make a change.
+
+Another great time-saver is that Unix stores a list of all the commands that you have typed in each login session. You can access this list by using the `history` command or more simply by using the up and down arrows to access anything from your history. So if you type a long command but make a mistake, press the up arrow and then you can use the left and right arrows to move the cursor in order to make a change.
 
 ### Working with files
 The following sections will deal with Unix commands that help us to work with files, i.e. copy files to/from places, move files, rename files, remove files, and most importantly, look at files. First, we need to have some files to play with. The Unix command touch will let us create a new, empty file. The touch command does other things too, but for now we just want a couple of files to work with.
@@ -542,7 +545,8 @@ tail -n 20 opening_lines.txt | head
  
 Show lines of a file that begin with a capital I (the ^ matches patterns at the start of a line):
 ```
-grep "^I" opening_lines.txt```
+grep "^I" opening_lines.txt
+```
  
 Cut out the 3rd column of a tab-delimited text file and sort it to only show unique lines (i.e. remove duplicates):
 ```

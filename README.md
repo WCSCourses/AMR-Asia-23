@@ -26,7 +26,7 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 - [Paul Turner](https://www.tropmedres.ac/team/paul-turner), Cambodia-Oxford Medical Research Unit, Cambodia
 - [Premjit Amornchai](https://www.tropicalmedicine.ox.ac.uk/team/premjit-amornchai?7576d5bd-195d-11ed-a8f6-062102a078a4), Mahidol-Oxford Tropical Medicine Unit, Thailand
 
-## Lectures
+<!--## Lectures
 
 - [Lecture 1](): Introduction to AMR - historical and epidemiological aspects
 - [Lecture 2](): Epidemiology of AMR and national surveillance programs in Southeast Asia
@@ -38,7 +38,7 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 - [Lecture 8](): Acquisition and evolution of resistance 
 - [Lecture 9](): Introduction to Genomic Surveillance of AMR
 - [Lecture 10](): Local AMR epidemiology - investigation transmission of clones and AMR using genomics
-- [Lecture 11](): AMR and One Health
+- [Lecture 11](): AMR and One Health-->
 
 ## Computational Practicals 
 
@@ -57,11 +57,11 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 - [Session 13](): Genomics Surveillance of AMR Analysis of resistance in genomes
 - [Session 14](): Analysis of resistance in genomes
 
-## Laboratory Practicals 
+<!--## Laboratory Practicals 
 
 - [Practical 1](): Set up disc testing
 - [Practical 2](): Set up e-tests and broth microdilution tests
 - [Practical 3](): Read e-tests and broth microdilution
 - [Practical 4](): Reading disc plates - comparision exercise
-- [Practical 5](): Nanopore sequencing demo
+- [Practical 5](): Nanopore sequencing demo-->
 

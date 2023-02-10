@@ -44,16 +44,16 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 
 - [Session 1](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/ComputationalPractical1.md): Intro to linux / command line
 - [Session 2](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational_practical_2_QC.pdf): Accessing data and data QC
-- [Session 3](): Assembly (short read)
-- [Session 4](): Alignment and variant calling
-- [Session 5](): Long read assembly
-- [Session 6](): Detecting resistance using command line
-- [Session 7](): Online tools
-- [Session 8](): Phylogenetics
+- [Session 3](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational_practical_3_ShortRead_Assembly.pdf): Assembly (short read)
+- [Session 4](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/computational_practical_4_alnVcall.pdf): Alignment and variant calling
+- [Session 5](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20Practical%205%20-%20Long-read%20assembly.pdf): Long read assembly
+- [Session 6](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%206.Detecting%20AMR%20from%20genomes%20-%20command%20line%20tools.pdf): Detecting resistance using command line
+- [Session 7](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational_practical_7_onlinetools.pdf): Online tools
+- [Session 8](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%208.Phylogenetics.pdf): Phylogenetics
 - [Session 9](): Analysing phylogenetics - AMR national
-- [Session 10](): International Genomic Surveillance of AMR 
-- [Session 11](): National Genomic Surveillance of AMR 
-- [Session 12](): Local Genomic Surveillance of AMR
+- [Session 10](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2010.International%20Genomic%20Surveillance%20of%20AMR.pdf): International Genomic Surveillance of AMR 
+- [Session 11](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2011.National%20Genomic%20Surveillance%20of%20AMR.pdf): National Genomic Surveillance of AMR 
+- [Session 12](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2012.Local%20Genomic%20Surveillance%20of%20AMR.pdf): Local Genomic Surveillance of AMR
 - [Session 13](): Genomics Surveillance of AMR Analysis of resistance in genomes
 - [Session 14](): Analysis of resistance in genomes
 

@@ -43,7 +43,7 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 ## Computational Practicals 
 
 - [Session 1](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/ComputationalPractical1.md): Intro to linux / command line
-- [Session 2](): Accessing data and data QC
+- [Session 2](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational_practical_2_QC.pdf): Accessing data and data QC
 - [Session 3](): Assembly (short read)
 - [Session 4](): Alignment and variant calling
 - [Session 5](): Long read assembly

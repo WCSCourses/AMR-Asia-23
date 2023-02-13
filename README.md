@@ -8,7 +8,7 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 
 [Course website](https://coursesandconferences.wellcomeconnectingscience.org/event/antimicrobial-resistance-in-bacterial-pathogens-asia-20230219/)
 
-## Preliminary Timetable
+## Timetable
 
 [Download here](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/AMR%202023%20Timetable.pdf)
 

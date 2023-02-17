@@ -54,8 +54,8 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 - [Session 10](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2010.International%20Genomic%20Surveillance%20of%20AMR.pdf): International Genomic Surveillance of AMR 
 - [Session 11](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2011.National%20Genomic%20Surveillance%20of%20AMR.pdf): National Genomic Surveillance of AMR 
 - [Session 12](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2012.Local%20Genomic%20Surveillance%20of%20AMR.pdf): Local Genomic Surveillance of AMR
-- [Session 13](): Genomics Surveillance of AMR Analysis of resistance in genomes
-- [Session 14](): Analysis of resistance in genomes
+- [Session 13](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2013%20%26%2014.pdf): Genomics Surveillance of AMR Analysis of resistance in genomes
+- [Session 14](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2013%20%26%2014.pdf): Analysis of resistance in genomes
 
 <!--## Laboratory Practicals 
 

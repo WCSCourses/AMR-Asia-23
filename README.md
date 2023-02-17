@@ -59,7 +59,7 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 
 ## Additional files for the virtual machine
 
--[CT18.gbk.txt](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/CT18.gbk.txt): file to add to cp13 and cp14 directories
+- [CT18.gbk.txt](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/CT18.gbk.txt): file to add to cp13 and cp14 directories
 
 <!--## Laboratory Practicals 
 

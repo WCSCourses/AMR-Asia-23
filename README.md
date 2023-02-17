@@ -57,6 +57,10 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 - [Session 13](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2013%20%26%2014.pdf): Genomics Surveillance of AMR Analysis of resistance in genomes
 - [Session 14](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%2013%20%26%2014.pdf): Analysis of resistance in genomes
 
+## Additional files for the virtual machine
+
+-[CT18.gbk.txt](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/CT18.gbk.txt): file to add to cp13 and cp14 directories
+
 <!--## Laboratory Practicals 
 
 - [Practical 1](): Set up disc testing

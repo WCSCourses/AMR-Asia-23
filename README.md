@@ -45,7 +45,7 @@ Learn antimicrobial susceptibility testing techniques and how whole-genome seque
 - [Session 1](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/ComputationalPractical1.md): Intro to linux / command line
 - [Session 2](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational_practical_2_QC.pdf): Accessing data and data QC
 - [Session 3](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational_practical_3_ShortRead_Assembly.pdf): Assembly (short read)
-- [Session 4](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/computational_practical_4_alnVcall.pdf): Alignment and variant calling
+- [Session 4](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational_practical_4_alnVcall.pdf): Alignment and variant calling
 - [Session 5](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20Practical%205%20-%20Long-read%20assembly.pdf): Long read assembly
 - [Session 6](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational%20practical%206.Detecting%20AMR%20from%20genomes%20-%20command%20line%20tools.pdf): Detecting resistance using command line
 - [Session 7](https://github.com/WCSCourses/AMR-Asia-23/blob/main/Lectures/Computational_practical_7_onlinetools.pdf): Online tools
